@@ -23,7 +23,7 @@ function buildComplexString() {
 }
 
 function buildSimpleString() {
-    for ( var i = 0; i < 10000; i++){
+    for ( var i = 0; i < 5000; i++){
         simpleString += 'ab';
     }
     console.log(simpleString);
